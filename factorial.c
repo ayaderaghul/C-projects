@@ -7,6 +7,7 @@ int main() {
         return 1;
     }
 
+    //O(n) O(1)
     int total = 1;
     for (int i = 1; i <= num; i++) {
         total *= i;
